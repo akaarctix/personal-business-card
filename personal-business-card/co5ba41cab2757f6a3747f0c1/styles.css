@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    font-family: monospace, helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.animation {
+    width: 400px;
+    background-color: #ddebf8;
+    animation: test-animation 8s alternate infinite;
+}
+
+@keyframes test-animation {
+    from {background-color: #ddebf8;}
+    to {background-color: whitesmoke;}
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+}
+
+.border-white {
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+h4:hover {
+    background-color: #dee2ff;
+}
+
